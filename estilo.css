@@ -26,7 +26,7 @@ h4 {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 370px;
+    width: 520px;
     padding: 30px;
     min-width: 320px;
     background: #fff;
@@ -62,4 +62,28 @@ h4 {
 .lista ul {
     padding: 2% 0 2% 7%;
     line-height: 1.7em;
+}
+.segunda-lista {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline ;
+    width: 95%;
+    margin-left: 2.7%;
+    padding: 12px 12px 10px 0px;
+    gap: 7px;
+    border-radius: 7px;
+}
+.segunda-lista ul{
+    padding: 2% 0 2% 5%;
+    line-height: 1.5em;
+}
+.segunda-lista ol{
+    padding: 2% 0 2% 5%;
+    line-height: 1.5em;
+}
+.linha { 
+    width: 90%;
+
 }
