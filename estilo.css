@@ -117,7 +117,7 @@ p {
   display: flex;
   width: 80%;
   flex-direction: row;
-  word-spacing: 150px;
+  word-spacing: 230px;
   padding-left: 40px;
   padding-right: 17px;
 }
@@ -125,7 +125,7 @@ p {
   display: flex;
   width: 80%;
   flex-direction: row;
-  word-spacing: 175px;
+  word-spacing: 250px;
   padding-left: 40px;
   padding-right: 20px;
 }
@@ -133,7 +133,7 @@ p {
   display: flex;
   width: 80%;
   flex-direction: row;
-  word-spacing: 163px;
+  word-spacing: 240px;
   padding-left: 40px;
   padding-right: 20px;
 }
@@ -141,7 +141,7 @@ p {
   display: flex;
   width: 80%;
   flex-direction: row;
-  word-spacing: 191px;
+  word-spacing: 267px;
   padding-left: 40px;
   padding-right: 20px;
 }
