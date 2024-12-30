@@ -119,46 +119,45 @@ p {
 #calorias {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
-  gap: 230px;
+  gap: 47px;
   padding-top: 4px;
+  padding-right: 6.2px;
   padding-bottom: 7px;
-  padding-left: 30px;
 }
 #carb {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
-  gap: 253px;
+  gap: 74px;
   padding-top: 4px;
+  padding-right: 40px;
   padding-bottom: 7px;
-  padding-left: 30px;
 }
 #prot {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
-  gap: 235px;
+  gap: 53px;
   padding-top: 4px;
+  padding-right: 30px;
   padding-bottom: 7px;
-  padding-left: 30px;
 }
 #fat {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
-  gap: 261px;
+  gap: 78px;
   padding-top: 4px;
+  padding-right: 30px;
   padding-bottom: 7px;
-  padding-left: 30px;
 }
 .tipo {
   font-weight: bold;
   color: brown;
   font-size: 16px;
-  line-height: 7px;
 }
