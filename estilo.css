@@ -1,89 +1,154 @@
 @charset "UTF-8";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: none;
+@font-face {
+  font-family: fonte-principal;
+  src: url("Fontes/Ysabeau-Italic-VariableFont_wght.ttf");
+
+  font-family: fonte-secundaria;
+  src: url("Fontes/Bebas-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
 }
 body {
-    display: flex;
-    width: 100%;
-    background: #FFEFD5;
+  display: flex;
+  width: 100%;
+  background: #ffefd5;
 }
 span {
-    font-weight: bold;
+  font-weight: bold;
+}
+h1 {
+  font-family: fonte-principal sans-serif;
+  font-size: 2.7em;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.7em;
+  font-family: fonte-secundaria;
+  color: brown;
 }
 h4 {
-    font-size: large;
-    color: brown;
-    line-height: 2em;
+  font-family: fonte-secundaria;
+  font-size: 1.2em;
+  color: brown;
+  line-height: 2em;
+}
+p {
+  font-family: "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 0.97em;
+}
+#receitas {
+  list-style-type: none;
+  padding-left: 2%;
 }
 .principal {
-    display: flex;
-    flex-direction: column;
-    margin: 7% auto;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 520px;
-    padding: 30px;
-    min-width: 320px;
-    background: #fff;
-    border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  margin: 7% auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 520px;
+  padding: 30px;
+  min-width: 320px;
+  background: #fff;
+  border-radius: 7px;
 }
 .conteudo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .imagem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .imagem img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 .lista {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline ;
-    width: 90%;
-    padding: 12px 0px 12px 12px;
-    gap: 10px;
-    background: #FFEFD5;
-    border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  width: 90%;
+  padding: 12px 0px 12px 12px;
+  gap: 10px;
+  background: #ffefd5;
+  border-radius: 7px;
 }
 .lista ul {
-    padding: 2% 0 2% 7%;
-    line-height: 1.7em;
+  padding: 2% 0 2% 7%;
+  line-height: 1.7em;
 }
 .segunda-lista {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline ;
-    width: 95%;
-    margin-left: 2.7%;
-    padding: 12px 12px 10px 0px;
-    gap: 7px;
-    border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  width: 95%;
+  margin-left: 2.7%;
+  padding: 12px 12px 10px 0px;
+  gap: 7px;
+  border-radius: 7px;
+  font-size: 1em;
 }
-.segunda-lista ul{
-    padding: 2% 0 2% 5%;
-    line-height: 1.5em;
+.segunda-lista ul {
+  padding: 2% 0 2% 6%;
+  line-height: 1.5em;
 }
-.segunda-lista ol{
-    padding: 2% 0 2% 5%;
-    line-height: 1.5em;
+.linha {
+  width: 90%;
 }
-.linha { 
-    width: 90%;
-
+#texto {
+  padding-top: 0.7px;
+  padding-bottom: 4px;
+  background-color: white;
+}
+#calorias {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  word-spacing: 217px;
+  padding-left: 60px;
+  padding-right: 17px;
+}
+#carb {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  word-spacing: 235px;
+  padding-left: 60px;
+  padding-right: 20px;
+}
+#prot {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  word-spacing: 225px;
+  padding-left: 60px;
+  padding-right: 20px;
+}
+#fat {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  word-spacing: 250px;
+  padding-left: 60px;
+  padding-right: 20px;
+}
+.tipo {
+  font-weight: bold;
+  color: brown;
+  font-size: 16px;
+  line-height: 7px;
 }
