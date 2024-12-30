@@ -121,7 +121,9 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 239px;
+  gap: 230px;
+  padding-top: 4px;
+  padding-bottom: 7px;
   padding-left: 30px;
 }
 #carb {
@@ -129,7 +131,9 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 262px;
+  gap: 253px;
+  padding-top: 4px;
+  padding-bottom: 7px;
   padding-left: 30px;
 }
 #prot {
@@ -137,7 +141,9 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 244px;
+  gap: 235px;
+  padding-top: 4px;
+  padding-bottom: 7px;
   padding-left: 30px;
 }
 #fat {
@@ -145,7 +151,9 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 270px;
+  gap: 261px;
+  padding-top: 4px;
+  padding-bottom: 7px;
   padding-left: 30px;
 }
 .tipo {
