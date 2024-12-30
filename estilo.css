@@ -7,7 +7,6 @@
   font-family: fonte-secundaria;
   src: url("Fontes/Bebas-Regular.ttf");
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -118,7 +117,7 @@ p {
   display: flex;
   width: 80%;
   flex-direction: row;
-  word-spacing: 217px;
+  word-spacing: 157px;
   padding-left: 60px;
   padding-right: 17px;
 }
@@ -126,7 +125,7 @@ p {
   display: flex;
   width: 80%;
   flex-direction: row;
-  word-spacing: 235px;
+  word-spacing: 175px;
   padding-left: 60px;
   padding-right: 20px;
 }
@@ -134,7 +133,7 @@ p {
   display: flex;
   width: 80%;
   flex-direction: row;
-  word-spacing: 225px;
+  word-spacing: 163px;
   padding-left: 60px;
   padding-right: 20px;
 }
@@ -142,7 +141,7 @@ p {
   display: flex;
   width: 80%;
   flex-direction: row;
-  word-spacing: 250px;
+  word-spacing: 191px;
   padding-left: 60px;
   padding-right: 20px;
 }
@@ -151,9 +150,4 @@ p {
   color: brown;
   font-size: 16px;
   line-height: 7px;
-}
-@media (max-width: 420px) {
-  p {
-    font-size: 10px;
-  }
 }
