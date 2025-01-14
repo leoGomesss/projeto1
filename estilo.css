@@ -162,6 +162,11 @@ p {
   font-size: 16px;
 }
 @media (max-width: 400px){
+  h1 {
+    font-size: 1.47px;
+  }
+}
+@media (max-width: 400px){
   .tipo {
     font-size: 12px;
     padding-right: 33px;
