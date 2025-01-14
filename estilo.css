@@ -161,3 +161,9 @@ p {
   color: brown;
   font-size: 16px;
 }
+@media (max-width: 400px){
+  .tipo {
+    font-size: 12px;
+    padding-right: 33px;
+  }
+}
