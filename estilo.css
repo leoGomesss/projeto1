@@ -1,11 +1,18 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: fonte-principal;
-  src: url("Fontes/Ysabeau-Italic-VariableFont_wght.ttf");
+  font-family: fonte-cabecalho;
+  src: url("Fontes/January\ Night.ttf");
+}
 
+@font-face {
   font-family: fonte-secundaria;
   src: url("Fontes/Bebas-Regular.ttf");
+}
+
+@font-face {
+  font-family: fonte-final;
+  src: url("Fontes/Musician\ -\ Demo.otf");
 }
 * {
   margin: 0;
@@ -21,9 +28,11 @@ span {
   font-weight: bold;
 }
 h1 {
-  font-family: fonte-principal sans-serif;
-  font-size: 2.2em;
+  font-family: fonte-cabecalho;
+  font-size: 2.9em;
   font-weight: bold;
+  color: brown;
+  text-shadow: 1px 1px gray;
 }
 h2 {
   font-size: 1.7em;
@@ -163,7 +172,9 @@ p {
 }
 @media (max-width: 400px){
   h1 {
-    font-size: 1.2em;
+    font-family: fonte-final;
+    font-size: 1.6em;
+    font-weight: bold;
   }
 }
 @media (max-width: 400px){
